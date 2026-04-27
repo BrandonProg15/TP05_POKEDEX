@@ -1,0 +1,133 @@
+{
+  "info": {
+    "_postman_id": "5b50611a-fc0e-45bd-853e-8e83df75864e",
+    "name": "tp05_pokedex_gaguine_korinfeld",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "54290938",
+    "_collection_link": "https://go.postman.co/collection/54290938-5b50611a-fc0e-45bd-853e-8e83df75864e?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "ObtenerNombre",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://pokeapi.co/api/v2/pokemon/25",
+          "protocol": "https",
+          "host": [
+            "pokeapi",
+            "co"
+          ],
+          "path": [
+            "api",
+            "v2",
+            "pokemon",
+            "25"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ObtenerId",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://pokeapi.co/api/v2/pokemon/25",
+          "protocol": "https",
+          "host": [
+            "pokeapi",
+            "co"
+          ],
+          "path": [
+            "api",
+            "v2",
+            "pokemon",
+            "25"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ObtenerTipo",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://pokeapi.co/api/v2/type/electric",
+          "protocol": "https",
+          "host": [
+            "pokeapi",
+            "co"
+          ],
+          "path": [
+            "api",
+            "v2",
+            "type",
+            "electric"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ObtenerError",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://pokeapi.co/api/v2/pokemon/ioiyufuoyf",
+          "protocol": "https",
+          "host": [
+            "pokeapi",
+            "co"
+          ],
+          "path": [
+            "api",
+            "v2",
+            "pokemon",
+            "ioiyufuoyf"
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "auth": {
+    "type": "apikey",
+    "apikey": [
+      {
+        "key": "in",
+        "value": "header",
+        "type": "string"
+      }
+    ]
+  },
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ]
+}
